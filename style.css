@@ -1,0 +1,138 @@
+.container {
+    background:#EAF8FF;
+    color: black;
+    margin: 0px;
+}
+
+.container h1 {
+    margin-top: 0px;
+    padding-top: 75px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {    
+    margin: 0px;
+}
+
+header {
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 20px;
+    position: fixed;
+    width: 100%;
+    transition: all 0.25s ease-out;
+    background-color: #0c223f;
+    border-bottom: solid 4px #05101d;
+    z-index: 1030;
+}
+
+footer {
+    background: #3c3c3c;
+    padding: 30px;
+    color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+p {
+    margin-left: 20px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    margin-right: 20px;
+}
+
+.navigation__list {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin: 0px;
+}
+
+.navigation__list a {
+    color: white;
+    font-weight: bold;
+    font: Verdana;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+img {
+    margin-left: 0px;
+    padding: 0px;
+    border:2px solid black;
+    padding-bottom: 0px;
+    
+   }
+
+button {
+    margin-left: 50px;
+    background-color: #3c3c3c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contactinfo {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.mywork a {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    text-decoration: none;
+}    
+    
+.mywork a:link {
+    color: black;
+}
+
+.mywork a:visited {
+    color: black;
+}
+
+.mywork a:hover {
+    color: blue;
+}
+
+.worksection {
+    padding: 50px;
+    background-color: #62d2c2;
+    background: linear-gradient(114.83deg, #81dbce 5%, #72d6c8 5%, #72d6c8 20%, #62d2c2 20%, #62d2c2 75%, #72d6c8 75%, #72d6c8 100%);
+}
+
+.Anandos {
+    padding: 50px;
+    background-color: #62d2c2;
+    background: linear-gradient(114.83deg, #81dbce 5%, #72d6c8 5%, #72d6c8 20%, #62d2c2 20%, #62d2c2 95%, #72d6c8 95%, #72d6c8 100%);
+}
